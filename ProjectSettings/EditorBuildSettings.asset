@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene2_SetUp1.unity
     guid: 429d012cb87f78d418dd4d245e647386
   - enabled: 1
-    path: Assets/Scenes/Scne3_SetUp2&ThemeStated.unity
+    path: Assets/Scenes/Scene3_SetUp2&ThemeStated.unity
     guid: de3ee8598d7e8f84287716952bf600ae
+  - enabled: 1
+    path: Assets/Scenes/Scene4_SetUp3.unity
+    guid: 764f4e3bf8f97004f8dda093bf7bb3ec
   m_configObjects: {}
