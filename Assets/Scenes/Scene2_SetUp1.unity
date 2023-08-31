@@ -367,11 +367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 899.22186, y: -201.05057}
+  scrollPos: {x: 1029.7081, y: -58.26348}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -380,8 +380,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1171515981}
-  selectedCommands:
-  - {fileID: 1171515980}
+  selectedCommands: []
   variables:
   - {fileID: 1171515972}
   - {fileID: 1171515976}
@@ -426,7 +425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 95.12194
+    width: 92.465744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1118,7 +1117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.84558
     y: 351.93
-    width: 120.73169
+    width: 117.12326
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1234,10 +1233,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: Fuck off Julian.
+  storyText: Fuck off Julian!
   description: 
   character: {fileID: 3457076230005473665}
-  portrait: {fileID: 21300000, guid: 03ae2c0341077ce40a56c1498efa9cd8, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1261,10 +1260,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Hey Fellas, how about passing me a cool one for my trip home?
+  storyText: Hey Fellas, how about passing me a cold one for my trip home?
   description: 
   character: {fileID: 596898727}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1577,7 +1576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.76187
     y: 269.1824
-    width: 118.29267
+    width: 115.7534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1682,7 +1681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 1
-  text: Correct Yourself
+  text: Lean Back
   description: 
   targetBlock: {fileID: 1171516013}
   hideIfVisited: 0
@@ -1732,7 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 1
-  text: Correct Yourself
+  text: Lean Back
   description: 
   targetBlock: {fileID: 1171516013}
   hideIfVisited: 0
@@ -1759,7 +1758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 209.103
     y: 163.94841
-    width: 145.12193
+    width: 144.52051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1788,7 +1787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -151.72166
     y: 164.97937
-    width: 152.439
+    width: 151.36983
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1817,7 +1816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71.989655
     y: 164.97939
-    width: 85.365845
+    width: 82.8767
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
