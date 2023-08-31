@@ -47,8 +47,7 @@ MonoBehaviour:
   nameText: Alex
   nameColor: {r: 0.6007476, g: 0.9433962, b: 0.6721924, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

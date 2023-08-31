@@ -47,8 +47,7 @@ MonoBehaviour:
   nameText: Julian
   nameColor: {r: 0.9339623, g: 0.38301897, b: 0.20705767, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

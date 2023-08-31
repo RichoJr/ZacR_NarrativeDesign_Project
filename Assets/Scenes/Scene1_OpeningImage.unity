@@ -580,7 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: We're closing everyone.
+  storyText: "We\u2019re closing everyone."
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Get up, we're closing.
+  storyText: "Get up, we\u2019re closing."
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 0}
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: I'm going home.
+  storyText: "I\u2019m going home."
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -755,10 +755,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'Get out Julian. '
+  storyText: 'Get out Julian! '
   description: 
   character: {fileID: 143606836}
-  portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '*Moaning*'
+  storyText: '*Moaning Sounds*'
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -826,8 +826,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: You know I can't do that Julian. Remember the last time I left you here
-    overnight, I spent the next morning scrubbing puke and piss of the floorboards.
+  storyText: "You know I can\u2019t do that Julian. Remember\r the last time I left
+    you here overnight, I\r spent the next morning scrubbing puke and \r piss of
+    the floorboards.\r\n"
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -915,7 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Out Julian.
+  storyText: Out Julian!
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -1029,7 +1030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: Arrrrgggghhhh!
+  storyText: Argh!
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -1259,8 +1260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "My rein was challenged Al. I couldn\u2019t let that bitch Barbra Peterson
-    dethrone the king."
+  storyText: "My rein was challenged Al. I couldn\u2019t let\r that bitch Barbra
+    Peterson dethrone the \r king.\r\n"
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -1364,7 +1365,7 @@ MonoBehaviour:
   itemId: 72
   indentLevel: 0
   storyText: "I hope you can live with yourself when I\u2019m robbed and shanked
-    on the way home."
+    on my way home."
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -1418,7 +1419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: "I\u2019m going. "
+  storyText: "I\u2019m going\u2026 "
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -1427,7 +1428,7 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -1489,7 +1490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: Now Julian.
+  storyText: Now Julian!
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -1715,7 +1716,7 @@ MonoBehaviour:
   itemId: 57
   indentLevel: 0
   storyText: "I hope you can live with yourself when I\u2019m robbed and shanked
-    on the way home."
+    on my way home.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1769,7 +1770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: "I\u2019m going. "
+  storyText: "I\u2019m going\u2026 "
   description: 
   character: {fileID: 544940170}
   portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
@@ -1778,7 +1779,7 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -1840,7 +1841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: Now Julian.
+  storyText: Now Julian!
   description: 
   character: {fileID: 143606836}
   portrait: {fileID: 21300000, guid: 5049f0bcc8ca72b499d2d8e5356d93e6, type: 3}
@@ -2101,7 +2102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  text: Hop Off Seat Left Side
+  text: Hop Off Left Side
   description: 
   targetBlock: {fileID: 1753186000}
   hideIfVisited: 0
@@ -2126,7 +2127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  text: Hop Off Seat Right Side
+  text: Hop Off Right Side
   description: 
   targetBlock: {fileID: 1753186001}
   hideIfVisited: 0
@@ -2805,6 +2806,10 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1616567832}
+    - target: {fileID: 2542819877785137272, guid: 2c7d5b76c5f58e54aa60d29623049649, type: 3}
+      propertyPath: portraits.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2542819877785137273, guid: 2c7d5b76c5f58e54aa60d29623049649, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2923,6 +2928,10 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1616567832}
+    - target: {fileID: 7955133385905632372, guid: 2e36e0885517c6147a76cdd8b025c92c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7955133385905632373, guid: 2e36e0885517c6147a76cdd8b025c92c, type: 3}
       propertyPath: m_RootOrder
       value: 5
