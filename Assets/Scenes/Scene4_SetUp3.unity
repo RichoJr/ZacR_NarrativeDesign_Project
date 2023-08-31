@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1342.2949, y: 66.12215}
+  scrollPos: {x: 1199.7952, y: -285.99988}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -325,8 +325,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 232244054}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 232244008}
@@ -1191,7 +1190,7 @@ MonoBehaviour:
   storyText: Good morning, Chloe. Ready for today?
   description: 
   character: {fileID: 126797284}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3100,7 +3099,7 @@ MonoBehaviour:
   variable: {fileID: 232244008}
 --- !u!114 &232244076
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3143,7 +3142,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &232244078
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3161,7 +3160,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &232244079
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3178,7 +3177,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 2af82d490ebbf9841a70a3ce79e74767, type: 3}
 --- !u!114 &232244080
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3196,7 +3195,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &232244081
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3208,7 +3207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  text: Sandwich
+  text: Take Sandwich
   description: 
   targetBlock: {fileID: 232244077}
   hideIfVisited: 0
@@ -3221,7 +3220,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &232244082
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3233,7 +3232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  text: Beer
+  text: Take Drink
   description: 
   targetBlock: {fileID: 232244077}
   hideIfVisited: 0
@@ -3246,7 +3245,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &232244083
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3258,7 +3257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  text: Sandwich
+  text: Take Sandwich
   description: 
   targetBlock: {fileID: 232244077}
   hideIfVisited: 0
@@ -3271,7 +3270,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &232244084
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3283,7 +3282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  text: Vodka
+  text: Take Drink
   description: 
   targetBlock: {fileID: 232244077}
   hideIfVisited: 0
@@ -3296,7 +3295,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &232244085
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3314,7 +3313,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &232244086
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3331,7 +3330,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: d5504297d3431d9488b08ae381981544, type: 3}
 --- !u!114 &232244087
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3894,7 +3893,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &232244093
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3911,7 +3910,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &232244094
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3928,7 +3927,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &232244095
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3945,7 +3944,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &232244096
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3962,7 +3961,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &232244097
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3979,7 +3978,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &232244098
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
