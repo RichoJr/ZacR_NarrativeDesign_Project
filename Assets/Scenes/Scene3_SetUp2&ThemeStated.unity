@@ -890,6 +890,7 @@ GameObject:
   - component: {fileID: 1871240143}
   - component: {fileID: 1871240142}
   - component: {fileID: 1871240141}
+  - component: {fileID: 1871240218}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -910,18 +911,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2622.1523, y: -1359.5271}
+  scrollPos: {x: 1946.786, y: -1474.6051}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4900004
+  zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1871240144}
   selectedCommands: []
   variables:
   - {fileID: 1871239838}
@@ -1003,7 +1005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -748.999
     y: -381.99966
-    width: 92.85711
+    width: 96.57533
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3133,7 +3135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -620.6755
     y: -81.049194
-    width: 113.26526
+    width: 118.49313
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3170,7 +3172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -889.78394
     y: -85.90436
-    width: 109.183624
+    width: 114.383545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3241,7 +3243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -608.41986
     y: -181.3092
-    width: 82.65303
+    width: 85.616425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3275,7 +3277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -869.9023
     y: -179.29471
-    width: 74.48978
+    width: 76.02739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3307,7 +3309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  text: Vodka
+  text: Take Vodka
   description: 
   targetBlock: {fileID: 1871239872}
   hideIfVisited: 0
@@ -3332,7 +3334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  text: Beer
+  text: Take Beer
   description: 
   targetBlock: {fileID: 1871239873}
   hideIfVisited: 0
@@ -3453,7 +3455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -759.0299
     y: -254.96881
-    width: 113.26526
+    width: 121.23286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3726,7 +3728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -937.999
     y: -321.99966
-    width: 135.71422
+    width: 143.15067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3760,7 +3762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -611.9991
     y: -330.99966
-    width: 154.08154
+    width: 163.69861
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3989,7 +3991,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -876.5504
     y: 204.2955
-    width: 82.65303
+    width: 84.24657
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4044,7 +4046,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -621.28723
     y: 296.40082
-    width: 121.42851
+    width: 126.71231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4339,7 +4341,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -896.28735
     y: 300.3482
-    width: 117.346886
+    width: 122.60272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5256,7 +5258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -605.4978
     y: 197.71652
-    width: 90.81629
+    width: 93.8356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6346,8 +6348,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: What was that bang?
   description: 
-  character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  character: {fileID: 624812902}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6434,7 +6436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -621.21094
     y: 108.18755
-    width: 119.387695
+    width: 125.342445
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6466,7 +6468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -894.0937
     y: 107.0736
-    width: 115.30607
+    width: 121.23286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7582,7 +7584,7 @@ MonoBehaviour:
   storyText: The only thing being taken here is my last bottle of vodka.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9064,7 +9066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -606.7571
     y: -3.492217
-    width: 88.77548
+    width: 92.465744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9096,7 +9098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -873.7057
     y: -1.624342
-    width: 80.61222
+    width: 82.87671
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9241,10 +9243,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: 'Jeez, Sharls! '
+  storyText: 'Jeez, Sharls. '
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9312,10 +9314,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: 'Jeez, Sharls! '
+  storyText: 'Jeez, Sharls. '
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9356,11 +9358,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 296
   indentLevel: 0
-  storyText: Really, because you're their ninety percent of the time. With the other
+  storyText: Really because you're there ninety percent of the time. With the other
     drunks, drinking yourselves to death.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9386,7 +9388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -779.8533
     y: 1279.6742
-    width: 119.387695
+    width: 126.71231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9420,7 +9422,7 @@ MonoBehaviour:
   storyText: That's not my home Sharls.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9463,7 +9465,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -784.54016
     y: 1416.977
-    width: 123.46933
+    width: 129.45203
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9488,6 +9490,7 @@ MonoBehaviour:
   - {fileID: 1871240191}
   - {fileID: 1871240190}
   - {fileID: 1871240189}
+  - {fileID: 1871240218}
   - {fileID: 1871240188}
   - {fileID: 1871240187}
   - {fileID: 1871240186}
@@ -9551,7 +9554,7 @@ MonoBehaviour:
   storyText: I'm home taking care of Chloe every day helping YOU out.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9578,7 +9581,7 @@ MonoBehaviour:
   storyText: I've always respected you, and when am I not there for you?
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9602,11 +9605,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 290
   indentLevel: 0
-  storyText: How about the one where you would always be there for me, or the one
+  storyText: 'How about the one where you would always be there for me, or the one
     where you promised to respect me.
+
+'
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9660,7 +9665,7 @@ MonoBehaviour:
   storyText: 'Really, you want to bring up our wedding vows. '
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9687,7 +9692,7 @@ MonoBehaviour:
   storyText: You can't talk to me like that. You promised to always respect me.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9801,7 +9806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -579.8527
     y: 1281.3987
-    width: 111.22444
+    width: 118.49313
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9837,7 +9842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -983.48987
     y: 1281.398
-    width: 117.346886
+    width: 123.97258
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9871,7 +9876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 278
   indentLevel: 0
-  text: Not my house
+  text: "That\u2019s Not My Home"
   description: 
   targetBlock: {fileID: 1871239975}
   hideIfVisited: 0
@@ -9896,7 +9901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 277
   indentLevel: 0
-  text: Say nothing
+  text: Say Nothing
   description: 
   targetBlock: {fileID: 1871239990}
   hideIfVisited: 0
@@ -9921,7 +9926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 276
   indentLevel: 0
-  text: Feels wanted there
+  text: I Feel Wanted There
   description: 
   targetBlock: {fileID: 1871239991}
   hideIfVisited: 0
@@ -9949,7 +9954,7 @@ MonoBehaviour:
   storyText: Really? Your house? What about the bar?
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9976,7 +9981,7 @@ MonoBehaviour:
   storyText: This is my house Sharls.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10003,11 +10008,11 @@ MonoBehaviour:
   storyText: You need to leave Julian.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -10030,13 +10035,13 @@ MonoBehaviour:
   storyText: -what gets you through everything. Gets you through us...
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -10054,10 +10059,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 271
   indentLevel: 0
-  storyText: "I\u2019m fine Sharls. It\u2019-"
+  storyText: "I\u2019m fine Sharls. It\u2019s-"
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10084,7 +10089,7 @@ MonoBehaviour:
   storyText: Of course, I did Julian. That shit is killing you.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10169,7 +10174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -778.8269
     y: 1166.3542
-    width: 117.346886
+    width: 125.342445
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11345,10 +11350,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 253
   indentLevel: 0
-  storyText: Aarrggghh, why the fuck did you do that?
+  storyText: Argh, Why the fuck did you do that?
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11372,10 +11377,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 252
   indentLevel: 0
-  storyText: Aarrggghh, why the fuck did you do that?
+  storyText: Argh, Why the fuck did you do that?
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11713,7 +11718,7 @@ MonoBehaviour:
   storyText: Once I'm-
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11737,10 +11742,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 237
   indentLevel: 0
-  storyText: Put it down.
+  storyText: Put it down!
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11875,7 +11880,7 @@ MonoBehaviour:
   storyText: Once I'm-
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11899,10 +11904,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 231
   indentLevel: 0
-  storyText: Put it down.
+  storyText: Put it down!
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13045,7 +13050,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -624.69604
     y: 1058.1592
-    width: 90.81629
+    width: 93.8356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13091,7 +13096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -883.3918
     y: 1051.6376
-    width: 82.65303
+    width: 84.24657
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13261,7 +13266,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -387.15564
     y: 915.9565
-    width: 121.42851
+    width: 126.71231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13294,7 +13299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1138.0908
     y: 927.2144
-    width: 117.346886
+    width: 122.60272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16055,7 +16060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -210.5549
     y: 570.2657
-    width: 105.102
+    width: 110.27396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16085,9 +16090,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -520.6342
+    x: -521.81067
     y: 571.1942
-    width: 96.938736
+    width: 100.68492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17369,7 +17374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -965.0106
     y: 749.64966
-    width: 98.97955
+    width: 103.424644
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17402,7 +17407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1265.1324
     y: 748.08716
-    width: 90.81629
+    width: 93.8356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18491,7 +18496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -982.1981
     y: 655.89966
-    width: 129.59177
+    width: 136.30135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18523,7 +18528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1286.255
     y: 652.82196
-    width: 125.51014
+    width: 132.19176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18553,10 +18558,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: Go to bed, I will join you in a second.
+  storyText: Go to bed. I will join you in a second.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18580,10 +18585,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  storyText: Go to bed, I will join you in a second.
+  storyText: Go to bed. I will join you in a second.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19150,7 +19155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -968.856
     y: 548.7604
-    width: 105.102
+    width: 110.27396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19182,7 +19187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1268.621
     y: 548.5101
-    width: 96.938736
+    width: 100.68492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19235,7 +19240,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -537.37897
     y: 418.32248
-    width: 115.30607
+    width: 125.342445
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19265,7 +19270,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -965.91705
     y: 421.21277
-    width: 109.183624
+    width: 115.75341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19634,7 +19639,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -777.9848
     y: 1724.0063
-    width: 111.22444
+    width: 117.12327
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19731,7 +19736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -641.9193
     y: 1628.9236
-    width: 119.387695
+    width: 125.342445
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19760,7 +19765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -914.80536
     y: 1629.397
-    width: 115.30607
+    width: 121.23286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21461,7 +21466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -626.8483
     y: 1503.5143
-    width: 88.77548
+    width: 92.465744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21493,7 +21498,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -894.1555
     y: 1507.3605
-    width: 80.61222
+    width: 82.87671
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21526,7 +21531,7 @@ MonoBehaviour:
   storyText: Enjoy your drink.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21570,7 +21575,7 @@ MonoBehaviour:
   storyText: She wants you.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21614,7 +21619,7 @@ MonoBehaviour:
   storyText: Take care of your family or get lost because I can't do this anymore.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21641,7 +21646,7 @@ MonoBehaviour:
   storyText: 'You need to grow up and be a man. '
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21685,7 +21690,7 @@ MonoBehaviour:
   storyText: It's your fault she's awake.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21729,7 +21734,7 @@ MonoBehaviour:
   storyText: I'm guessing I have this one?
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21756,7 +21761,7 @@ MonoBehaviour:
   storyText: Look what you did. Chloe's awake.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21800,7 +21805,7 @@ MonoBehaviour:
   storyText: OUT!
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21844,7 +21849,7 @@ MonoBehaviour:
   storyText: No! This is my house!
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21932,7 +21937,7 @@ MonoBehaviour:
   storyText: I told you Sharls, I'm not leaving.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21956,10 +21961,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 326
   indentLevel: 0
-  storyText: ...get out!
+  storyText: Get out!
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22040,7 +22045,7 @@ MonoBehaviour:
   storyText: 'She wasn''t even home. What do you even do when you''re here? '
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22067,7 +22072,7 @@ MonoBehaviour:
   storyText: She was a good sleeper.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22091,10 +22096,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 321
   indentLevel: 0
-  storyText: And you never checked on her. Not once?
+  storyText: 'And you never thought to check on her. Not once?
+
+'
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22121,7 +22128,7 @@ MonoBehaviour:
   storyText: I thought I was home to watch her.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22165,7 +22172,7 @@ MonoBehaviour:
   storyText: Is that how little you care about her?
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22192,7 +22199,7 @@ MonoBehaviour:
   storyText: 'You really didn''t know your daughter wasn''t home with you. '
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22281,7 +22288,7 @@ MonoBehaviour:
   storyText: 'Really? '
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22325,7 +22332,7 @@ MonoBehaviour:
   storyText: She comes to work with me Julian.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22390,7 +22397,7 @@ MonoBehaviour:
   storyText: I watch her. I spend all day watching her when you're working.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22417,7 +22424,7 @@ MonoBehaviour:
   storyText: All I want is a little help when looking after Chloe. That's it.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22489,7 +22496,7 @@ MonoBehaviour:
   storyText: 'Do you know how much work I do? '
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22618,7 +22625,7 @@ MonoBehaviour:
   storyText: I'm at home with Chloe most of the day. I need a break as well Sharls.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22646,7 +22653,7 @@ MonoBehaviour:
     home and out as soon as you come to.
   description: 
   character: {fileID: 624812902}
-  portrait: {fileID: 21300000, guid: 83ef203b1ed144340b3a71632f9e3cb1, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22673,7 +22680,7 @@ MonoBehaviour:
   storyText: What's with all the death talk? I'm not dying.
   description: 
   character: {fileID: 1689454677}
-  portrait: {fileID: 21300000, guid: b1ee01a0ce0af434981159b5b32614c0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22683,6 +22690,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1871240218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871239835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 374
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.25
+  durationOLD: 0
 --- !u!1001 &1498055272450236682
 PrefabInstance:
   m_ObjectHideFlags: 0
